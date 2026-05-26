@@ -160,12 +160,12 @@ function App() {
 
         <div className="mt-12 flex flex-wrap gap-3 justify-center">
   
-   {/*<a href="/cv-hadjer-benarab.pdf"
+   <a href="/cv-hadjer-benarab.pdf"
     download
     className="inline-flex items-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white no-underline px-7 py-2.5 text-sm rounded-full font-medium transition-all duration-200"
   >
     ⬇ Télécharger mon CV
-  </a>*/}
+  </a>
   <button
     onClick={() => scrollTo("propos")}
     className="bg-transparent border border-gray-300 text-gray-500 hover:border-indigo-400 hover:text-indigo-500 transition-all duration-200 rounded-full px-7 py-2.5 text-sm cursor-pointer font-normal"
